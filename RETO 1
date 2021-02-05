@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calcula indice de masa corporal</title>
+  </head>
+  <body>
+    <h1>Calcula Indice de Masa Corporal</h1>
+    <p>IMC</p>
+    <script>
+      var peso = 70;
+      var altura = 1.64;
+      var IMC;
+      IMC = peso / (altura * altura);
+      document.write(IMC);
+    </script>
+  </body>
+</html>
